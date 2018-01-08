@@ -1,1 +1,1 @@
-puts "Michel-Anges"
+puts "Michel-Ange"
