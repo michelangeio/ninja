@@ -1,0 +1,49 @@
+Commandes Git:
+
+git clone ADRESSE_DU_DEPOT nom_du_dossier_destination(optionel)
+	Permet de copier un depot git sur son PC
+
+git add NOM_DU_FICHIER
+	permet d'ajouter/tracker un fichier en vu de l'ajouter au prochain commit
+	option: * ou -A (ajoute tous les fichier modifie)
+
+git status
+	permet de verifier l'etat des fichier vis a vis dela derniere snapshot(dernier commit)
+
+git commit -m "MESSAGE_DU_COMMIT"
+	permet de creer une snapshot du projet
+
+git push
+	permet de pousser le projet "en ligne"
+	option: origin master (lors du1er push sur un repos)
+
+git fetch
+	permet de récupèree toutes les données de ce projet que vous ne possédez pas déjà.
+
+git pull
+	permet de recuperer les donnees du projet et les fusionner directement avec les donnees locales
+
+
+
+
+Commandes shell:
+
+ls:(list) permet de lister les fichier du dossier courant
+	option: -la (permet de lister les fichier du dossier courant sur plusieurs lignes et afficher des fichier/dossier caches)
+ 
+cd ADRESSE:(change directory) permet de changer de dossier courant 
+
+pwd:(print working directory) permet de savoir l'adresse du dossier courant
+
+touch NOM_DE_FICHIER: permet de creer un fichier
+
+mkdir:(make directory) permet de creer un dossier
+
+mv FICHIER_CIBLE DESTINATION:(move) permet de déplacer/modifier un fichier
+
+cp FICHIER_CIBLE DESTINATION:(copy) permet de copier le fichier vers la destination
+
+rm FICHIER:(remove) permet de supprimer un fichier/dossier
+	option: -r supprimer de maniere recursive
+			-f force la suppression ans avertissement
+
