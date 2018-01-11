@@ -1,0 +1,123 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li
+{
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.image_google img
+{
+    width:50%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -110px;
+}
+
+.barre_recherche /* Il faudrait réussir a modifier la hauteur de la barre de recherche*/
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.element li
+{
+    display: inline-block;
+    padding:6px 6px 6px 6px;
+    font:bold 13px Arial;
+    border-radius:2px;
+    width:100px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main
+{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.France
+{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    min-width: 980px;
+    line-height: 12px;
+    padding-left: 12px;
+    color:#757575;
+
+}
+
+#Autre li
+{
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #000fff;
+    background: #f2f2f2;
+}
+
+.footer-left
+{
+    float: left;
+    display: inline-flex;
+    padding-left: 12px;
+}
+
+.footer-right
+{
+    float: right;
+    display: inline-flex;
+    padding-right: 12px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+
+hr
+{
+    border-top: 2px;
+    border-color: #e0e0e0;
+}
+
+#javascript-test
+{
+    display: none;   
+}
+
+#javascript-button
+{
+    display: block;
+    margin: auto;
+}
